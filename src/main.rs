@@ -1,5 +1,5 @@
 use square_homage::run;
 
 fn main() {
-    run();
+    pollster::block_on(run());
 }
